@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { DatePicker} from 'antd';
+import React from 'react';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h3>Web personal - Client</h3>
+      <DatePicker/>
+
+
     </div>
   );
 }
